@@ -15,7 +15,8 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       background-color: #111214; /* Тёмный фон игровой платформы */
       color: #ffffff;
-      height: 100vh;
+      min-height: 100vh;
+      min-height: 100svh;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -110,6 +111,20 @@
       }
       .logo {
         font-size: 22px;
+      }
+      main {
+        padding: 28px 18px;
+      }
+      h1 {
+        font-size: clamp(28px, 8vw, 40px);
+        overflow-wrap: anywhere;
+      }
+      p {
+        font-size: 15px;
+      }
+      footer {
+        padding: 18px 16px;
+        line-height: 1.5;
       }
     }
   </style>
