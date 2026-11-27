@@ -1,1 +1,1 @@
-веб сайт pinkori игровой клиент 
+Pinkori website and game client 
